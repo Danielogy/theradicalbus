@@ -12,7 +12,7 @@ export class PostServiceService {
   posts : Array<any> = [
     {
       title: 'Blog Post One',
-      image: './../../../../assets/images/image2.jpg',
+      image: './assets/images/image2.jpg',
       date: '3/08/21',
       summary: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
       body: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet aliquam id diam maecenas ultricies mi eget mauris. At auctor urna nunc id. Eu lobortis elementum nibh tellus molestie nunc non blandit. Dui sapien eget mi proin sed libero. Dolor sit amet consectetur adipiscing elit ut aliquam purus sit. Sed ullamcorper morbi tincidunt ornare massa eget. A condimentum vitae sapien pellentesque habitant. Cras tincidunt lobortis feugiat vivamus at augue. Habitant morbi tristique senectus et. Consectetur purus ut faucibus pulvinar elementum integer enim. Iaculis urna id volutpat lacus laoreet non curabitur. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Velit sed ullamcorper morbi tincidunt ornare massa eget. Quis blandit turpis cursus in hac. Elementum facilisis leo vel fringilla. Tincidunt arcu non sodales neque sodales ut etiam sit. Vitae nunc sed velit dignissim sodales ut eu. Et malesuada fames ac turpis egestas integer.<br><br>
@@ -25,7 +25,7 @@ export class PostServiceService {
     },
     {
       title: 'Humans Replaced By Machines?',
-      image: './../../../../assets/images/image1.jpg',
+      image: './assets/images/image1.jpg',
       date: '06/08/21',
       summary: `Will all of the people of the world find work? Will all of the people of the world be gainfully employed? Will all of the people of the world be needed?`,
       body: `Yet another day of reflections – too many of those lately – and thinking about generations. My parents were war parents, living through the Second World War; their parents were people growing up in Edwardian Britain as a carpenter and housewife. Things were different.<br><br>
