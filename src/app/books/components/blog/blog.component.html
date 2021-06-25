@@ -1,0 +1,9 @@
+<div class="blog-container">
+    <div class="blog">
+        <p class="blog-date">{{ posts[postToRender].date }}</p>
+        <h1 class="blog-title">{{ posts[postToRender].title }}</h1>
+        <p class="blog-description" [innerHTML] = "posts[postToRender].body">
+            
+        </p>
+    </div>
+</div>

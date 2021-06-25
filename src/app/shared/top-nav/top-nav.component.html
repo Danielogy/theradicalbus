@@ -1,0 +1,34 @@
+<!-- Top Navigation -->
+<nav>
+  <div class="burger-menu" (click)="renderMenu()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+  </div>
+  <div class="logo">
+    <h1 routerLink="/">The Radical Bus</h1>
+  </div>
+  <ul class="nav-links">
+      <li class="link" routerLinkActive="link-active" routerLink="/events">Events</li>
+      <li class="link" routerLinkActive="link-active" routerLink="/books">Books</li>
+      <li class="link" routerLinkActive="link-active" routerLink="/resources">Resources</li>
+      <li class="link"><img src="./../../../assets/icons/facebook.svg" alt="icon"></li>
+      <li class="link"><img src="./../../../assets/icons/twitter.svg" alt="icon"></li>
+      <li class="link"><img src="./../../../assets/icons/instagram.svg" alt="icon"></li>
+      <li class="link"><img src="./../../../assets/icons/youtube.svg" alt="icon"></li>
+  </ul>
+</nav>
+
+
+<div class="menu">
+  <ul class="menu-list">
+    <li routerLink="/events" (click)="newPage()">Events</li>
+    <li routerLink="/books" (click)="newPage()">Books</li>
+    <li routerLink="/resources" (click)="newPage()">Resources</li>
+    <div class="socials">
+      <li><img src="./../../../assets/icons/facebook.svg" alt="icon"></li>
+      <li><img src="./../../../assets/icons/twitter.svg" alt="icon"></li>
+      <li><img src="./../../../assets/icons/instagram.svg" alt="icon"></li>
+      <li><img src="./../../../assets/icons/youtube.svg" alt="icon"></li>
+    </div>
+  </ul>
+</div>

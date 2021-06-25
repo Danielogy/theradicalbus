@@ -1,0 +1,28 @@
+.hero{
+    background-color: var(--primary);
+    width: 100%;
+    height: 300px;
+    font-size: 42px;
+    padding-top: 150px;
+    padding-bottom: 400px;
+}
+
+.hero h1{
+    font-family: 'Gothic A1', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.posts{
+    width: 100%;
+    background-color: var(--primary);
+}
+
+@media screen and (max-width: 1200px) {
+    .hero{
+        padding-bottom: 200px;
+    }
+    .hero h1{
+        font-size: 42px;
+    }
+}

@@ -1,0 +1,19 @@
+.quote{
+    width: 100%;
+    background-color: var(--primary);
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+    justify-content: center;
+}
+
+.quote p{
+    font-size: 21px;
+}
+
+@media screen and (max-width: 1200px){
+    .quote{
+        padding-left: 40px;
+    }
+}
